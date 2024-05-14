@@ -1,0 +1,21 @@
+.tool{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    &__links{
+       
+        display: flex;
+        gap: 1rem;
+        .link{
+
+            text-decoration: none;
+            color: white;
+            font-size: 1rem;
+            transition: all 0.3s;
+            &:hover{
+                color: yellow;
+                transform: scale(1.2);
+            }
+        }
+    }
+}
